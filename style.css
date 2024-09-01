@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de encabezado */
+h1 {
+    color: #fff;
+}
+
+/* Estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de separadores */
+.separator {
+    margin-bottom: 20px;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #fff;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+
+/* Estilos para el formulario de inicio de sesión */
+form {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
